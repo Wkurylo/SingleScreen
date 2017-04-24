@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Final Project</string>
+    <string name="des">We are well experienced flight engineers specialized in construction, training and drones flight. We provide drone courses.</string>
+    <string name="dess">NO</string>
+    <string name="desss">prevoius experience required.</string>
+    <string name="tel">+48 502 117 379</string>
+    <string name="mail">dt@dronetech.pl</string>
+    <string name="www">www.dronetech.pl</string>
+    <string name="thanks">Happy flying</string>
+
+</resources>

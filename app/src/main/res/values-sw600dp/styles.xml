@@ -1,0 +1,70 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--
+               - What is doing : App name is not visable
+               - Originally: Theme.AppCompat.Light.DarkActionBar
+   -->
+
+    <style name="des" parent="AppTheme">
+        <item name="android:textSize">35sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/marginTopS</item>
+    </style>
+
+    <style name="dess" parent="AppTheme">
+        <item name="android:textSize">35sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">@dimen/margin_topSM</item>
+    </style>
+
+    <style name="desss" parent="AppTheme">
+        <item name="android:textSize">35sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/marginTopS</item>
+    </style>
+
+    <style name="tel" parent="AppTheme">
+        <item name="android:drawablePadding">@dimen/padding</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textSize">35sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">@dimen/marginTop</item>
+    </style>
+
+    <style name="mail" parent="AppTheme">
+        <item name="android:drawablePadding">@dimen/padding</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textSize">35sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">@dimen/marginTop</item>
+    </style>
+
+    <style name="www" parent="AppTheme">
+        <item name="android:drawablePadding">@dimen/paddingS</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textSize">35sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">@dimen/marginTop</item>
+        <item name="android:layout_marginBottom">@dimen/marginBottom</item>
+    </style>
+
+    <style name="thanks" parent="AppTheme">
+        <item name="android:textSize">30sp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">@dimen/margin</item>
+    </style>
+    
+</resources>
